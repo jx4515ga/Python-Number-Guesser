@@ -34,8 +34,8 @@ while True:
     if user_guess == random_number:
         print("You got it! Your number is", user_guess)
         #Asks user if wants to continue playing
-        keep_going = input("Keep going? (y/n)")
-        if keep_going != "y":
+        continue_playing = input("Do you wanna try again (y/n)")
+        if continue_playing != "y":
 
             break
     #Letting user know if number entered is above or below ramdom number.
